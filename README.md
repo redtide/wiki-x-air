@@ -1,5 +1,4 @@
-# Source code for the [XAIR Manuals](https://redtide.github.io/xair)
-unofficial website.
+# Source code for the [XAIR Manuals](https://redtide.github.io/xair) unofficial website.
 
 The website is built using [Jekyll][jekyll], using [Node.js][node] to compile
 all static assets including the [Bootstrap][bootstrap] library and built on
