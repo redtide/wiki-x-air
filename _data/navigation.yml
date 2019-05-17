@@ -3,49 +3,49 @@ toc:
       type: dropdown
       pages:
         - title: 1. Introduction
-          url: /x-air_manual/
+          url: /en/
 
         - title: 2.1 X18/XR18 Callouts
-          url: /x-air_manual/x18-xr18_callouts
+          url: /en/x18-xr18_callouts
 
         - title: 2.2 XR12/16 Callouts
-          url: /x-air_manual/xr12-16_callouts
+          url: /en/xr12-16_callouts
 
         - title: 3.1 X18/XR18 Hookups
-          url: /x-air_manual/x18-xr18_hookups
+          url: /en/x18-xr18_hookups
 
         - title: 3.2 XR12/16 Hookups
-          url: /x-air_manual/xr12-16_hookups
+          url: /en/xr12-16_hookups
 
         - title: 4. Network Connection
-          url: /x-air_manual/network_connection
+          url: /en/network_connection
 
         - title: 5. X AIR for iPad
-          url: /x-air_manual/ipad
+          url: /en/ipad
 
         - title: 6. X AIR for Android
-          url: /x-air_manual/android
+          url: /en/android
 
         - title: 7. X AIR for PC
-          url: /x-air_manual/pc
+          url: /en/pc
 
         - title: 8. MIDI
-          url: /x-air_manual/midi
+          url: /en/midi
 
         - title: 9.1 X18/XR18 Specifications
-          url: /x-air_manual/x18-xr18_specifications
+          url: /en/x18-xr18_specifications
 
         - title: 9.2 XR12/16 Specifications
-          url: /x-air_manual/xr12-16_specifications
+          url: /en/xr12-16_specifications
 
         - title: 10. Effect Descriptions
-          url: /x-air_manual/effect_descriptions
+          url: /en/effect_descriptions
 
         - title: 11. Instructional Videos
-          url: /x-air_manual/videos
+          url: /en/videos
 
         - title: 12. Block Diagrams
-          url: /x-air_manual/diagrams
+          url: /en/diagrams
 
     - title: Downloads
       type: dropdown
