@@ -1,0 +1,36 @@
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - new_post
+  - node_modules
+  - package.json
+  - package-lock.json
+  - README.md
+  - setup.sh
+  - site.conf
+  - TODO.md
+  - yarn.lock
+  - assets/css/style.css
+
+# url: ""
+
+plugins:
+  - jekyll-sitemap
+
+organization_name: X-AIR
+# disqus_shortname:

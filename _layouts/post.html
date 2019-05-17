@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+{% include head.html %}
+	</head>
+	<body>
+		<a href="#content" class="sr-only">Skip to content</a>
+		<div class="container">
+{% include header.html %}
+			<div class="row mt-4" id="content">
+				<div class="col-md-9">
+					<article class="mb-4">
+							<h1>{{ page.title | escape }}</h1>
+							<p class="text-muted">
+								Posted on <time datetime="{{ page.date | datetime | date_to_xmlschema }}">
+                                    {{ page.date | date: page.date_fmt }}</time>
+{% if page.author %}by {{ page.author }}{% endif %}
+							</p>
+{{ content }}
+					</article>
+					<p class="my-4 text-center">
+						<a class="btn btn-lg btn-default" href="/news/archive/">
+                            <i class="fa fa-calendar fa-fw"></i> News archive</a>
+					</p>
+				</div>
+				<div class="col-md-3">
+					<aside>
+{% include aside.html %}
+					</aside>
+				</div>
+			</div>
+{% include footer.html %}
+		</div>
+{% include scripts.html %}
+	</body>
+</html>

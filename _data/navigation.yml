@@ -1,0 +1,63 @@
+toc:
+    - title: Manual
+      type: dropdown
+      pages:
+        - title: 1. Introduction
+          url: /x-air_manual/
+
+        - title: 2.1 X18/XR18 Callouts
+          url: /x-air_manual/x18-xr18_callouts
+
+        - title: 2.2 XR12/16 Callouts
+          url: /x-air_manual/xr12-16_callouts
+
+        - title: 3.1 X18/XR18 Hookups
+          url: /x-air_manual/x18-xr18_hookups
+
+        - title: 3.2 XR12/16 Hookups
+          url: /x-air_manual/xr12-16_hookups
+
+        - title: 4. Network Connection
+          url: /x-air_manual/network_connection
+
+        - title: 5. X AIR for iPad
+          url: /x-air_manual/ipad
+
+        - title: 6. X AIR for Android
+          url: /x-air_manual/android
+
+        - title: 7. X AIR for PC
+          url: /x-air_manual/pc
+
+        - title: 8. MIDI
+          url: /x-air_manual/midi
+
+        - title: 9.1 X18/XR18 Specifications
+          url: /x-air_manual/x18-xr18_specifications
+
+        - title: 9.2 XR12/16 Specifications
+          url: /x-air_manual/xr12-16_specifications
+
+        - title: 10. Effect Descriptions
+          url: /x-air_manual/effect_descriptions
+
+        - title: 11. Instructional Videos
+          url: /x-air_manual/videos
+
+        - title: 12. Block Diagrams
+          url: /x-air_manual/diagrams
+
+    - title: Downloads
+      type: dropdown
+      pages:
+        - title: XR12
+          url: https://www.behringer.com//Categories/Behringer/Mixers/Digital/XR12/p/P0BI6/Downloads
+
+        - title: XR16
+          url: https://www.behringer.com//Categories/Behringer/Mixers/Digital/XR16/p/P0BI7/Downloads
+
+        - title: XR18
+          url: https://www.behringer.com//Categories/Behringer/Mixers/Digital/XR16/p/P0BI8/Downloads
+
+        - title: X18
+          url: https://www.behringer.com//Categories/Behringer/Mixers/Digital/X18/p/P0AWZ/Downloads
