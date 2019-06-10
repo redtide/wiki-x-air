@@ -1,4 +1,4 @@
-# Source code for the [XAIR Manuals](https://x-air-wiki.github.io) unofficial website.
+# Source code for the [XAIR Manuals][] unofficial website
 
 The website is built using [Jekyll][], using [Node.js][] to compile
 all static assets including the [Bootstrap][] library and built on
@@ -13,6 +13,7 @@ Icons are provided by [Font Awesome][], favicons by [Favicon Generator][].
 [Markdown]: https://daringfireball.net/projects/markdown/
 [Node.js]: http://nodejs.org/
 [SASS]: https://sass-lang.com/
+[XAIR Manuals]: https://redtide.github.io/wiki-x-air
 
 ## Local Build Quick-start Guide
 
