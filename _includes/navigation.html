@@ -6,7 +6,7 @@
 {%-assign page_path_prefix = '/' | append: page.lang | append: '/'-%}
 {% assign t = current_locale_dir.translation %}
 			<nav class="navbar navbar-expand-lg navbar-dark rounded">
-				<a class="navbar-brand" href="{{ page_path_prefix }}">
+				<a class="navbar-brand" href="{{ page_path_prefix | relative_url }}">
 					<img src="{{ "/assets/img/logo.png" | relative_url }}" width="30" height="30" class="d-inline-block align-top" alt="">
 					{{ site.organization.name }}
 				</a>
@@ -25,8 +25,8 @@
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarMenuLang">
 	{% for language in site.data.locale %}
-								<a class="dropdown-item" href="{{ '/' | append: language[0] | append: '/' }}">
-									<img border="0" src="{{ "/assets/flags/" | append: language[0]  | append: ".png" }}" width="16" height="11">
+								<a class="dropdown-item" href="{{ '/' | append: language[0] | append: '/' | relative_url }}">
+									<img border="0" src="{{ "/assets/flags/" | append: language[0]  | append: ".png" | relative_url }}" width="16" height="11">
 									{{ language[1].translation.name }}</a>
 	{% endfor %}
 							</div>
