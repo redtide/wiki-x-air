@@ -1,4 +1,5 @@
 ---
+lang: en
 title: 3.2 XR12/XR16 Hookups
 ---
 ##### XR16 Club Performance

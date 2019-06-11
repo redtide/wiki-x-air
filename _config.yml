@@ -12,7 +12,10 @@ defaults:
       layout: "post"
 
 exclude:
-  - CNAME
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
   - Gemfile
   - Gemfile.lock
   - LICENSE
@@ -20,17 +23,31 @@ exclude:
   - node_modules
   - package.json
   - package-lock.json
+  - Rakefile
   - README.md
   - setup.sh
-  - site.conf
+  - assets/css/style.css
   - TODO.md
   - yarn.lock
-  - assets/css/style.css
-
-# url: ""
+  - yarn-error.log
 
 plugins:
   - jekyll-sitemap
 
-organization_name: X-AIR
-# disqus_shortname:
+url: "https://redtide.github.io/wiki-x-air"
+
+spdx_license_id: "MPL-2.0"
+
+organization:
+  name: "X-AIR"
+  url: "https://github.com/redtide/wiki-x-air"
+
+authors:
+  content: "Behringer"
+  web: "RedTide"
+
+google:
+  analytics_code:
+  cse_code:
+
+disqus_shortname:

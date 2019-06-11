@@ -1,16 +1,19 @@
-{% for post in site.posts limit:5 %}
+{%-assign t = site.data.locale[page.lang].translation-%}
+{%-assign posts = site.posts | where:"lang", page.lang-%}
+
+{%-for post in posts limit:5-%}
 <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
 
-<p>Posted on <time datetime="{{ post.date | datetime | date_to_xmlschema }}"{% if updated %}
-              data-updated="true"{% endif %}>{{ post.date | date: page.date_fmt }}</time></p>
+<p>{{ t.posted_on }}<time datetime="{{ post.date | datetime | date_to_xmlschema }}"{%-if updated-%}
+				data-updated="true"{%-endif-%}>{{ post.date | date: page.date_fmt }}</time></p>
 
 {{ post.content }}
 
-	{% if post.comments and site.disqus_shortname %}
-<p><a href="{{ post.url | relative_url }}#disqus_thread" data-disqus-identifier="{{ post.id | escape }}">Comments</a></p>
-	{% endif %}
-{% endfor %}
+	{%-if post.comments and site.disqus_shortname-%}
+<p><a href="{{ post.url | relative_url }}#disqus_thread" data-disqus-identifier="{{ post.id | escape }}">{{ t.comments }}</a></p>
+	{%-endif-%}
+{%-endfor-%}
 
 <p class="text-center" style="margin-top: 2em;">
-	<a class="btn btn-lg btn-default" href="{{ "/news/archive/"  | relative_url }}"><i class="fa fa-calendar fa-fw"></i> News archive</a>
+	<a class="btn btn-lg btn-default" href="{{ '/' | append: page.lang | append: '/' | append: "news/archive/"  | relative_url }}"><i class="fa fa-calendar fa-fw"></i>{{ t.news_archive }}</a>
 </p>

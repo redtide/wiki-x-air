@@ -1,6 +1,11 @@
 ---
 title: Introduction
+lang: en
+layout: home
+date_fmt: "%B %d, %Y"
 ---
+<div markdown="1" class="jumbotron p-4 mb-3">
+
 Congratulations on your purchase of the new Behringer X AIR series digital mixer.
 These mixers offer plenty of analog I/O for most performances in a very compact
 form factor that is easy to transport, but doesn't sacrifice any mixing power.
@@ -26,3 +31,9 @@ live performances to be multitracked for later mixing.
 
 Continue through this manual to learn all about the functionality of your mixer,
 as well as the X AIR software.
+
+</div>
+
+# Latest News
+
+{% include post.html %}

@@ -1,4 +1,5 @@
 ---
+lang: en
 title: 4. Network Connection
 ---
 The X AIR mixers offer convenient digital control of the various mixing functions

@@ -1,4 +1,5 @@
 ---
+lang: en
 title: 8. MIDI
 ---
 

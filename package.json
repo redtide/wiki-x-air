@@ -1,8 +1,8 @@
 {
-	"name": "X-AIR",
+	"name": "Jekyllize",
 	"version": "0.1.0",
-	"author": "Andrea Zanellato",
-	"homepage": "",
+	"author": "RedTide <redtid3@gmail.com>",
+	"homepage": "https://jekyllize.github.io",
 	"scripts": {
 		"css": "node node_modules/npm-run-all/bin/run-s/index.js css-compile css-prefix css-minify",
 		"css-compile": "node node_modules/node-sass/bin/node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 _assets/scss/style.scss assets/css/style.css",
@@ -17,10 +17,10 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": ""
+		"url": "git@github.com:jekyllize/jekyllize.github.io.git"
 	},
 	"bugs": {
-		"url": ""
+		"url": "https://github.com/jekyllize/jekyllize.github.io/issues"
 	},
 	"license": "MPL-2.0",
 	"engines": {
@@ -31,16 +31,12 @@
 		"autoprefixer": "^8.2.0",
 		"bootstrap": "^4.0.0",
 		"clean-css-cli": "^4.1.11",
-		"jquery": "^3.4.1",
+		"jquery": "^3.3.1",
 		"node-sass": "^4.8.3",
 		"npm-run-all": "^4.1.2",
 		"popper.js": "^1.14.1",
-		"globby": "^9.0.0",
-		"postcss-cli": "^6.1.2",
+		"postcss-cli": "^5.0.0",
 		"sass": "^1.14.3",
 		"uglify-js": "^3.3.16"
-	},
-	"devDependencies": {
-		"postcss-loader": "^3.0.0"
 	}
 }

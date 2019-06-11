@@ -27,7 +27,7 @@
 			}
 		}
 	}
-	var searchTerm = getQueryVariable('query');
+	var searchTerm = getQueryVariable('q');
 
 	if (searchTerm) {
 		document.getElementById('search-box').setAttribute("value", searchTerm);

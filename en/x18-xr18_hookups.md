@@ -1,4 +1,5 @@
 ---
+lang: en
 title: 3.1 X18/XR18 Hookups
 ---
 ![X18/XR18 Hookups Image](/assets/img/x-air_manual/XR18_hookup_live.png)

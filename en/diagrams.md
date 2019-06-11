@@ -1,4 +1,5 @@
 ---
+lang: en
 title: 12. Block Diagrams
 ---
 ### XR12/XR16 Block Diagram

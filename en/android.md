@@ -1,4 +1,5 @@
 ---
+lang: en
 title: 6. X AIR for Android
 ---
 The X AIR applications for iOS, Android and Windows/Mac/Linux allow all of the

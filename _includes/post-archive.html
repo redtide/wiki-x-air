@@ -1,0 +1,16 @@
+{%-assign t = site.data.locale[page.lang].translation-%}
+
+<table class="table table-striped">
+	<caption>{{ t.archive_caption }}</caption>
+	<thead><tr><th>{{ t.archive_header1 }}</th><th>{{ t.archive_header2 }}</th></tr></thead>
+	<tbody>
+{%-assign posts = site.posts | where:"lang", page.lang-%}
+{% for post in posts %}
+		<tr>
+			<td><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></td>
+			<td><time datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate{% if updated %}
+				data-updated="true"{% endif %}>{{ post.date | date: page.date_fmt }}</time></td>
+		</tr>
+{% endfor %}
+	</tbody>
+</table>

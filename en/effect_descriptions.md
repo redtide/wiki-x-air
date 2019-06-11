@@ -1,4 +1,5 @@
 ---
+lang: en
 title: 10. Effect Descriptions
 ---
 Here is a list and brief description of the effects available on the X AIR mixers.

@@ -1,4 +1,5 @@
 ---
+lang: en
 title: 7. X AIR for PC
 ---
 The X AIR applications for iOS, Android and Windows/Mac/Linux allow all of the
