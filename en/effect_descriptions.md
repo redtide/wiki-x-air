@@ -53,7 +53,7 @@ different settings for the left and right signal.
 
 ### Hall, Ambience, Rich Plate, Room, Chamber Reverb
 
-![Hall, Ambience, Rich Plate, Room, Chamber Reverb Image](/assets/img/x-air_manual/effects/Ipad_effects_hall_room_chamber.png)
+![Hall, Ambience, Rich Plate, Room, Chamber Reverb Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_hall_room_chamber.png" | relative_url }})
 
 These 5 reverb emulations are inspired by the Lexicon 480L. Hall simulates
 the reverberation that occurs when sound is recorded in medium to large-sized
@@ -78,7 +78,7 @@ to be adjusted independently.
 
 ### Plate Reverb
 
-![Plate Reverb Image](/assets/img/x-air_manual/effects/Ipad_effects_reverb_plate.png)
+![Plate Reverb Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_reverb_plate.png" | relative_url }})
 
 A plate reverb was originally created by sending a signal through a transducer
 to create vibrations on a plate of sheet metal which were then picked up
@@ -101,7 +101,7 @@ tail modulation.
 
 ### Vintage Reverb
 
-![Vintage Reverb Image](/assets/img/x-air_manual/effects/Ipad_effects_vintage_reverb.png)
+![Vintage Reverb Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_vintage_reverb.png" | relative_url }})
 
 Based on the legendary EMT250, the Vintage Reverb delivers shimmering bright
 reverb that won’t drown out or overpower your live or recorded tracks.
@@ -123,7 +123,7 @@ The Vintage button enables the simulation of the input transformers.
 
 ### Vintage Room
 
-![Vintage Room Image](/assets/img/x-air_manual/effects/Ipad_effects_vintage_room.png)
+![Vintage Room Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_vintage_room.png" | relative_url }})
 
 Vintage Room simulates the reverberation that occurs when sound is recorded
 in a small room. When you want to add a bit of warmth and just a touch of reverb,
@@ -144,7 +144,7 @@ does not pass through the reverb.
 
 ### Gated Reverb
 
-![Gated Reverb Image](/assets/img/x-air_manual/effects/Ipad_effects_gated_reverb.png)
+![Gated Reverb Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_gated_reverb.png" | relative_url }})
 
 This effect was originally achieved by combining a reverb with a noise gate. Our
 gated reverb creates the same impression by a special shaping of the reverb tail.
@@ -164,7 +164,7 @@ effect. DIFF(USION) controls the initial reflection density.
 
 ### Reverse Reverb
 
-![Reverse Reverb Image](/assets/img/x-air_manual/effects/Ipad_effects_reverse_reverb.png)
+![Reverse Reverb Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_reverse_reverb.png" | relative_url }})
 
 Reverse Reverb takes the trail of a reverb, turns it around, and places it
 in front of the sound source. Use the swelling crescendo of the Reverse Reverb
@@ -182,7 +182,7 @@ a Hi-Shelving filter at the input of the reverb effect.
 
 ### Stereo Delay
 
-![Stereo Delay Image](/assets/img/x-air_manual/effects/Ipad_effects_stereo_delay.png)
+![Stereo Delay Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_stereo_delay.png" | relative_url }})
 
 Stereo Delay provides independent control of left and right delay (echo) times
 and features high and low pass filters for enhanced tone shaping of the delayed
@@ -205,7 +205,7 @@ M creates a mono mix within the feedback chain.
 
 ### 3-Tap Delay
 
-![3-Tap Delay Image](/assets/img/x-air_manual/effects/Ipad_effects_3_tap_delay.png)
+![3-Tap Delay Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_3_tap_delay.png" | relative_url }})
 
 Sometimes called a 3-Tap Delay, the Triple Delay provides three delay stages
 with independent frequency, gain, and pan controls.
@@ -228,7 +228,7 @@ PAN B sets the position of the third gain stage in the stereo field.
 
 ### Rhythm Delay
 
-![Rhythm Delay Image](/assets/img/x-air_manual/effects/Ipad_effects_rhythm_delay.png)
+![Rhythm Delay Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_rhythm_delay.png" | relative_url }})
 
 The Rhythm Delay provides 4 stages of delay with independently adjustable gain
 and rate, allowing unique syncopation to be created in the layered repeats.
@@ -244,7 +244,7 @@ of the delays is active.
 
 ### Stereo Chorus
 
-![Stereo Chorus Image](/assets/img/x-air_manual/effects/Ipad_effects_stereo_chorus.png)
+![Stereo Chorus Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_stereo_chorus.png" | relative_url }})
 
 Chorus samples the input, slightly detunes it and mixes it with the original
 signal to produce a somewhat thicker, shimmering sound. Use it to thicken up
@@ -262,7 +262,7 @@ chorus sound and the classic analog sine wave.
 
 ### Stereo Flanger
 
-![Stereo Flanger Image](/assets/img/x-air_manual/effects/Ipad_effects_stereo_flanger.png)
+![Stereo Flanger Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_stereo_flanger.png" | relative_url }})
 
 The Flanger emulates the phase-shifting sound (comb-filtering) originally created
 by applying pressure against the flange of the reel on a tape recorder.
@@ -275,7 +275,7 @@ and also band-limited with the FEED HC (high-cut) and FEED LC (low-cut) knobs.
 
 ### Stereo Phaser
 
-![Stereo Phaser Image](/assets/img/x-air_manual/effects/Ipad_effects_stereo_phaser.png)
+![Stereo Phaser Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_stereo_phaser.png" | relative_url }})
 
 A Stereo Phaser, or phase shifter, applies multiple STAGES of modulated filters
 to the input signal to create a “notch” in the frequency response,
@@ -293,7 +293,7 @@ and the ATTACK, HOLD and RELEASE knobs all tailor the response of this feature.
 
 ### Dimensional Chorus
 
-![Dimensional Chorus Image](/assets/img/x-air_manual/effects/Ipad_effects_dimensional_chorus.png)
+![Dimensional Chorus Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_dimensional_chorus.png" | relative_url }})
 
 The Dimensional Chorus offers the most user-friendly and classic sounds,
 best described as “space” and “dimensional”. The 4 MODE buttons can be engaged
@@ -302,7 +302,7 @@ exaggerated modulation.
 
 ### Mood Filter
 
-![Mood Filter Image](/assets/img/x-air_manual/effects/Ipad_effects_mood_filter.png)
+![Mood Filter Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_mood_filter.png" | relative_url }})
 
 The Mood Filter uses an LFO generator and an auto-envelope generator to control
 a VCF (voltage-controlled filter), as well as a side chain function where
@@ -328,7 +328,7 @@ The envelope of the right input signal can be used as a modulation source.
 
 ### Rotary Speaker
 
-![Rotary Speaker Image](/assets/img/x-air_manual/effects/Ipad_effects_rotary_speaker.png)
+![Rotary Speaker Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_rotary_speaker.png" | relative_url }})
 
 Rotary Speaker emulates the sound of a Leslie rotating speaker.
 The Rotary Speaker provides more flexibility than its electro-mechanical
@@ -345,7 +345,7 @@ and the virtual microphone.
 
 ### Stereo Tremolo
 
-![Stereo Tremolo Image](/assets/img/x-air_manual/effects/Ipad_effects_stereo_tremolo.png)
+![Stereo Tremolo Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_stereo_tremolo.png" | relative_url }})
 
 Stereo Tremolo creates an up and down volume change at a constant and even tempo
 just like the guitar amps of yesteryear. Use the Stereo Tremolo to add a unique
@@ -360,7 +360,7 @@ shaped by ATTACK, HOLD and RELEASE, can be used to modulate the LFO speed
 
 ### Sub Octaver
 
-![Sub Octaver Image](/assets/img/x-air_manual/effects/Ipad_effects_sub_octaver.png)
+![Sub Octaver Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_sub_octaver.png" | relative_url }})
 
 The Sub Octaver provides two channels of sub harmonics generation, one or even
 two octaves below the input signal.
@@ -372,7 +372,7 @@ of the input signal. The OCT1 and OCT2 knobs adjust how much 1 octave down and
 
 ### Delay + Chamber
 
-![Delay + Chamber Image](/assets/img/x-air_manual/effects/Ipad_effects_delay_chamber.png)
+![Delay + Chamber Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_delay_chamber.png" | relative_url }})
 
 Here we have combined Delay and Chamber reverb, so a single device can provide
 a variety of delay settings, plus add just the right type and amount of reverb
@@ -394,7 +394,7 @@ of high frequencies within the reverb tail.
 
 ### Chorus + Chamber
 
-![Chorus + Chamber Image](/assets/img/x-air_manual/effects/Ipad_effects_chorus_chamber.png)
+![Chorus + Chamber Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_chorus_chamber.png" | relative_url }})
 
 Taking up only one FX slot, the Chorus + Chamber effect combines the shimmer
 and doubling characteristics of a studio-grade Chorus with the sweet sound of
@@ -413,7 +413,7 @@ of high frequencies within the reverb tail.
 
 ### Flanger + Chamber
 
-![Flanger + Chamber Image](/assets/img/x-air_manual/effects/Ipad_effects_flanger_chamber.png)
+![Flanger + Chamber Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_flanger_chamber.png" | relative_url }})
 
 Add the mind-bending, filter-sweeping effect of a state-of-the-art Flanger
 to the elegant sweetening of a traditional Chamber reverb — all in one FX slot.
@@ -431,7 +431,7 @@ The DAMPING knob determines the decay of high frequencies within the reverb tail
 
 ### Delay + Chorus
 
-![Delay + Chorus Image](/assets/img/x-air_manual/effects/Ipad_effects_delay_chorus.png)
+![Delay + Chorus Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_delay_chorus.png" | relative_url }})
 
 This combination effect merges a user-definable Delay (echo) with a studio
 quality Chorus sure to fatten up even the “skinniest” track. Uses only one FX slot.
@@ -450,7 +450,7 @@ the effected signal with the “dry” sound.
 
 ### Delay + Flanger
 
-![Delay + Flanger Image](/assets/img/x-air_manual/effects/Ipad_effects_delay_flanger.png)
+![Delay + Flanger Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_delay_flanger.png" | relative_url }})
 
 This handy dynamic duo blends the “woosh” of soaring jet planes with classic
 Delay, and can be adjusted from mild to wild. This combination effect only
@@ -469,7 +469,7 @@ with the “dry” sound.
 
 ### Modulation Delay
 
-![Modulation Delay Image](/assets/img/x-air_manual/effects/Ipad_effects_modulation_delay.png)
+![Modulation Delay Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_modulation_delay.png" | relative_url }})
 
 Modulation Delay combines three of the most used time modulation effects into
 one easy-to-operate unit, featuring true-stereo delay with a lush chorus,
@@ -484,9 +484,9 @@ DECAY and HI DAMP.
 
 ### Graphic and Tru EQ
 
-![Graphic and Tru EQ Image](/assets/img/x-air_manual/effects/Ipad_effects_graphic_EQ.png)
+![Graphic and Tru EQ Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_graphic_EQ.png" | relative_url }})
 
-![Graphic and Tru EQ Image](/assets/img/x-air_manual/effects/Ipad_effects_tru_eq.png)
+![Graphic and Tru EQ Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_tru_eq.png" | relative_url }})
 
 The dual and stereo EQs are standard graphic equalizers that provide 31 bands
 of adjustment between 20 Hz and 20 kHz. A master volume slider compensates
@@ -499,16 +499,16 @@ On a standard EQ, when neighboring bands are boosted together,
 the resulting effect is magnified beyond what is visible from the positioning
 of the sliders.
 
-![EQ Image 1](/assets/img/x-air_manual/effects/Ipad_effects_eq_1.png)
+![EQ Image 1]({{ "/assets/img/x-air_manual/effects/Ipad_effects_eq_1.png" | relative_url }})
 
 This compensated EQ will produce an adjustment that is identical
 to the actual positioning of the sliders.
 
-![EQ Image 2](/assets/img/x-air_manual/effects/Ipad_effects_eq_2.png)
+![EQ Image 2]({{ "/assets/img/x-air_manual/effects/Ipad_effects_eq_2.png" | relative_url }})
 
 ### DeEsser
 
-![DeEsser Image](/assets/img/x-air_manual/effects/Ipad_effects_deesser.png)
+![DeEsser Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_deesser.png" | relative_url }})
 
 The DeEsser effect allows the sibilance to be controlled for singers that have
 a pronounced "S" sound. Separate knobs allow the low and high bands
@@ -516,7 +516,7 @@ to be adjusted, and the effect can be optimized for male and female voices.
 
 ### Xtec EQ1
 
-![Xtec EQ1 Image](/assets/img/x-air_manual/effects/Ipad_effects_xtec_eq1.png)
+![Xtec EQ1 Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_xtec_eq1.png" | relative_url }})
 
 Inspired by the Pultec EQP-1a, this passive equalizer is a very powerful tool
 for sound enhancement.
@@ -529,7 +529,7 @@ for the high frequencies.
 
 ### Xtec EQ5
 
-![Xtec EQ5 Image](/assets/img/x-air_manual/effects/Ipad_effects_xtec_eq5.png)
+![Xtec EQ5 Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_xtec_eq5.png" | relative_url }})
 
 This Pultec emulation is a classic analog passive equalizer that offers very
 warm and musical frequency sculpting. Simply select the center frequency
@@ -538,7 +538,7 @@ and how much midrange you want to cut.
 
 ### Wave Designer
 
-![Wave Designer Image](/assets/img/x-air_manual/effects/Ipad_effects_wave_designer.png)
+![Wave Designer Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_wave_designer.png" | relative_url }})
 
 Wave Designer is a powerful tool for adjusting signal transients and dynamics,
 such as attack and sustain. Use it to make a snare drum really “crack”
@@ -553,7 +553,7 @@ for level changes caused by the effect.
 
 ### Precision Limiter
 
-![Precision Limiter Image](/assets/img/x-air_manual/effects/Ipad_effects_precision_limiter.png)
+![Precision Limiter Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_precision_limiter.png" | relative_url }})
 
 Stereo Precision Limiter allows you to set a precise volume limit,
 ensuring distortion-free, optimal signal integrity. Use the Stereo Precision
@@ -572,7 +572,7 @@ from hard limiting (0 dB) to maximum soft limiting (10 dB).
 
 ### Combinator
 
-![Combinator Image](/assets/img/x-air_manual/effects/Ipad_effects_combinator.png)
+![Combinator Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_combinator.png" | relative_url }})
 
 The Combinator emulates famous broadcasting and mastering compressors,
 utilizing automatic parameter control that produces very effective yet
@@ -589,7 +589,7 @@ can be adjusted for each band independently.
 
 ### Fair Compressor
 
-![Fair Compressor Image](/assets/img/x-air_manual/effects/Ipad_effects_fair_comp.png)
+![Fair Compressor Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_fair_comp.png" | relative_url }})
 
 This model of a Fairchild 670 delivers some of the finest colorations
 in compressor history. Two small trim VRs, BIAS and BALANCE, preset the control
@@ -599,7 +599,7 @@ for dual, stereo-linked, or mid/side operation.
 
 ### Leisure Compressor
 
-![Leisure Compressor Image](/assets/img/x-air_manual/effects/Ipad_effects_leisure_comp.png)
+![Leisure Compressor Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_leisure_comp.png" | relative_url }})
 
 This model of a popular tube-based optical compressor provides natural
 and effortlessly musical compression, inspired by the Teletronix LA-2A.
@@ -610,7 +610,7 @@ the LIMIT setting results in a higher ratio.
 
 ### Ultimo Compressor
 
-![Ultimo Compressor Image](/assets/img/x-air_manual/effects/Ipad_effects_ultimo_comp.png)
+![Ultimo Compressor Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_ultimo_comp.png" | relative_url }})
 
 The Ultimo Compressor is based on the Urei 1176LN Limiting Amplifier
 and authentically captures the smooth character of the original
@@ -625,7 +625,7 @@ Compensate for overall level reduction with the OUTPUT knob.
 
 ### Enhancer
 
-![Enhancer Image](/assets/img/x-air_manual/effects/Ipad_effects_enhancer.png)
+![Enhancer Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_enhancer.png" | relative_url }})
 
 These Enhancers are so called “Psycho EQs”. They can enhance the signal spectrum
 in bass, midrange and high frequencies but they differ from traditional equalizers.
@@ -642,7 +642,7 @@ to the mix.
 
 ### Exciter
 
-![Exciter Image](/assets/img/x-air_manual/effects/Ipad_effect_exciter.png)
+![Exciter Image]({{ "/assets/img/x-air_manual/effects/Ipad_effect_exciter.png" | relative_url }})
 
 Exciters increase presence and intelligibility in live sound applications,
 and are indispensable for adding clarity, air and harmonic overtones
@@ -660,7 +660,7 @@ so you can hear exactly what you’re adding to the mix.
 
 ### Stereo Imager
 
-![Stereo Imager Image](/assets/img/x-air_manual/effects/Ipad_effects_imager.png)
+![Stereo Imager Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_imager.png" | relative_url }})
 
 A Stereo Imager is typically used to control the placement of a signal within
 the stereo field during mixdown or mastering. Modeled after the BEHRINGER Edison
@@ -676,7 +676,7 @@ using the corresponding knobs, then adjust the gain with the SHV GAIN knob.
 
 ### Edison EX1
 
-![Edison EX1 Image](/assets/img/x-air_manual/effects/Ipad_effects_edison.png)
+![Edison EX1 Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_edison.png" | relative_url }})
 
 The EDISON EX1+ is a remarkably effective tool that allows manipulation
 of the stereo field. The effect offers stereo and mid/side input and output
@@ -687,7 +687,7 @@ Compensate for level changes with the OUTPUT GAIN knob.
 
 ### Sound Maxer
 
-![Sound Maxer Image](/assets/img/x-air_manual/effects/Ipad_effects_sound_maxer.png)
+![Sound Maxer Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_sound_maxer.png" | relative_url }})
 
 Inspired by the Sonic Maximizer 482i, this effect restores natural brilliance
 and clarity to any audio signal by adjusting the phase and amplitude integrity
@@ -698,7 +698,7 @@ caused by the effect.
 
 ### Guitar Amp
 
-![Guitar Amp Image](/assets/img/x-air_manual/effects/Ipad_effects_guitar_amp.png)
+![Guitar Amp Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_guitar_amp.png" | relative_url }})
 
 Modeled after the Tech 21 SansAmp, the Stereo / Dual Guitar Amp simulates
 the sound of plugging into a real guitar amp. From shimmering cleans
@@ -718,7 +718,7 @@ channels to be adjusted independently.
 
 ### Tube Stage
 
-![Tube Stage Image](/assets/img/x-air_manual/effects/Ipad_effects_tube_stage.png)
+![Tube Stage Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_tube_stage.png" | relative_url }})
 
 Tube Stage/Overdrive is a versatile effect capable of emulating a variety
 of modern and classic tube preamps. Available in stereo and dual-mono versions,
@@ -735,9 +735,9 @@ TREBLE GAIN/FREQ adjust a high shelving filter at the output of the effect.
 
 ### Stereo / Dual Pitch
 
-![Dual Pitch Image](/assets/img/x-air_manual/effects/Ipad_effects_pitch.png)
+![Dual Pitch Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_pitch.png" | relative_url }})
 
-![Stereo Pitch Image](/assets/img/x-air_manual/effects/Ipad_effects_stereo_pitch.png)
+![Stereo Pitch Image]({{ "/assets/img/x-air_manual/effects/Ipad_effects_stereo_pitch.png" | relative_url }})
 
 Pitch shifting is often used in two different ways. One is to set the Mix knob
 lower and only use the Cent knob to make a small off set in pitch between

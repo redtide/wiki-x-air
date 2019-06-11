@@ -3,7 +3,7 @@ lang: en
 title: 8. MIDI
 ---
 
-![MIDI Image](/assets/img/x-air_manual/MIDI.png)
+![MIDI Image]({{ "/assets/img/x-air_manual/MIDI.png" | relative_url }})
 
 ##### Addendum
 

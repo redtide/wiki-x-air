@@ -31,7 +31,7 @@ on an Android device.
 The Main View screen provides access to all 16 channel faders, Aux in, and FX and
 bus levels, as well as navigation to preamp controls, meters, FX slots and more.
 
-![Main View Image](/assets/img/x-air_manual/android/Android_main_view_callout.png)
+![Main View Image]({{ "/assets/img/x-air_manual/android/Android_main_view_callout.png" | relative_url }})
 
 1. The Channel Strip gives quick reference to the status of various preamp
     settings, and allows access to Gate, Dynamics, EQ, Pan and Input controls.
@@ -50,7 +50,7 @@ bus levels, as well as navigation to preamp controls, meters, FX slots and more.
 8. Select a channel bank 1-8 or 9-16 with these buttons.
 9. Access the Mute Group edit screen by pressing the Mutes button:
 
-![Mutes Image](/assets/img/x-air_manual/android/Mutes.png)
+![Mutes Image]({{ "/assets/img/x-air_manual/android/Mutes.png" | relative_url }})
 
 (***note*** - this edit screen will be available in an upcoming software update)
 
@@ -80,7 +80,7 @@ pressing just above the Solo button in the channel strip area. By default,
 each channel will have a generic name such as “Ch 01” or “Bus 1”,
 but this can be customized in this section.
 
-![Input Image](/assets/img/x-air_manual/android/Android_input_callout.png)
+![Input Image]({{ "/assets/img/x-air_manual/android/Android_input_callout.png" | relative_url }})
 
 1. Touch this top button to access the Scribble Strip page where a custom name
     and color can be selected.
@@ -97,7 +97,7 @@ but this can be customized in this section.
 
 ### 6.3 Config
 
-![Config Image](/assets/img/x-air_manual/android/Android_config_callout.png)
+![Config Image]({{ "/assets/img/x-air_manual/android/Android_config_callout.png" | relative_url }})
 
 1. Invert the phase with this button.
 2. Press the Link button to link the adjacent channel for stereo operation.
@@ -121,7 +121,7 @@ can be selected to accommodate various levels of mixing expertise.
 Presets can also be selected from the folder icon to automatically load settings
 that suit your application.
 
-![Gate Image](/assets/img/x-air_manual/android/Droid_gate.png)
+![Gate Image]({{ "/assets/img/x-air_manual/android/Droid_gate.png" | relative_url }})
 
 1. Engage the gate with the ON button.
 2. The function menu allows various types of gates to be selected.
@@ -146,14 +146,14 @@ that suit your application.
 
 ### 6.5 EQ
 
-![EQ Image](/assets/img/x-air_manual/android/Droid_chan_eq.png)
+![EQ Image]({{ "/assets/img/x-air_manual/android/Droid_chan_eq.png" | relative_url }})
 
 1. Engage the EQ with the ON button.
 2. Engage the Lowcut button to remove unwanted low frequencies.
 3. Select the type of EQ for the selected band. This menu will only be available
     when one of the 4 bands are active, not including the lowcut.
 
-![EQ Type Image](/assets/img/x-air_manual/android/Droid_eq_type.png)
+![EQ Type Image]({{ "/assets/img/x-air_manual/android/Droid_eq_type.png" | relative_url }})
 
 4. Drag the band button left and right to determine the specific frequency, and move it up and down to determine the amount of boost or cut. Use a pinch or spread gesture (zoom in/out) to alter the bandwidth/Q.
 5. Select the source for the RTA to display.
@@ -162,7 +162,7 @@ that suit your application.
 
 ##### Graphic EQ
 
-![Graphic EQ Image](/assets/img/x-air_manual/android/Graphic_eq.png)
+![Graphic EQ Image]({{ "/assets/img/x-air_manual/android/Graphic_eq.png" | relative_url }})
 
 There are 3 EQ options for the Main LR and Aux buses: 6-band parametric, graphic,
 and “true” EQ. The parametric EQ functions the same as the channel EQ, only with
@@ -181,7 +181,7 @@ a signal when it drops below the predetermined threshold. Using the S/E button,
 a simple or expanded set of parameters can be selected to accommodate various
 levels of mixing expertise.
 
-![Dynamics Image](/assets/img/x-air_manual/android/Droid_dyn.png)
+![Dynamics Image]({{ "/assets/img/x-air_manual/android/Droid_dyn.png" | relative_url }})
 
 1. Engage the processor with the ON button.
 2. Adjust the Threshold at which the compressor begins to take effect.
@@ -215,7 +215,7 @@ levels of mixing expertise.
 
 ### 6.7 Sends
 
-![Sends Image](/assets/img/x-air_manual/android/Droid_sends.png)
+![Sends Image]({{ "/assets/img/x-air_manual/android/Droid_sends.png" | relative_url }})
 
 The Sends screen allows the currently selected channel’s signal to be routed
 to the 6 Aux outputs and to the 4 Effects processors. Aux and Effects routing
@@ -225,7 +225,7 @@ chain, such as pre or post EQ (the S/E button must be active).
 
 ### 6.8 Main
 
-![Main Image](/assets/img/x-air_manual/android/Main.png)
+![Main Image]({{ "/assets/img/x-air_manual/android/Main.png" | relative_url }})
 
 When the LR button is active, the channel is assigned to the main bus.
 For sources that are not intended for the audience to hear, such as click tracks,
@@ -253,14 +253,14 @@ for louder voices or more sensitive microphones.
 
 ### 6.9 Meters
 
-![Meters Image](/assets/img/x-air_manual/android/Meters.png)
+![Meters Image]({{ "/assets/img/x-air_manual/android/Meters.png" | relative_url }})
 
 The Meters tab allows easy monitoring of all analog and digital levels,
 including USB channels, Buses, Ultranet outputs, and the Main and Solo buses.
 
 ### 6.10 Effect Rack
 
-![Effect Rack Image](/assets/img/x-air_manual/android/Effect_rack.png)
+![Effect Rack Image]({{ "/assets/img/x-air_manual/android/Effect_rack.png" | relative_url }})
 
 The Effect Rack page is accessed via the “FX” icon at the top of the Main View
 screen. There are 4 slots where various effects can be selected and adjusted
@@ -274,7 +274,7 @@ immediate recall. For example, quick changes can be selected for different acts
 of a play, performances in a music festival with several bands, or different
 church services.
 
-![Snapshots Image](/assets/img/x-air_manual/android/Snapshots.png)
+![Snapshots Image]({{ "/assets/img/x-air_manual/android/Snapshots.png" | relative_url }})
 
 Click the camera icon at the top of the main screen. A window will open with a
 list of parameters to select for recall. You can select individual
@@ -311,7 +311,7 @@ and then select Delete.
 
 ### 6.12 Scenes and Shows
 
-![Scenes and Shows Image](/assets/img/x-air_manual/android/Scenes_shows.png)
+![Scenes and Shows Image]({{ "/assets/img/x-air_manual/android/Scenes_shows.png" | relative_url }})
 
 The Scenes/Shows page is accessed via the folder icon at the top
 of the Main View screen. This page allows you to save, edit and recall specific
@@ -324,7 +324,7 @@ The Routing menu is accessed via the up/down arrow icon at the top
 of the Main View screen. This allows the specific routing of input, output,
 USB and monitor buses to be adjusted freely.
 
-![Routing Image](/assets/img/x-air_manual/android/Routing.png)
+![Routing Image]({{ "/assets/img/x-air_manual/android/Routing.png" | relative_url }})
 
 Tap inside an empty box in the grid to move the orange dots and reassign
 the source for input channels, USB channels and P16 monitoring sources.
@@ -332,14 +332,14 @@ Modifications to the Inputs/USB routing can be reset by pressing the revert
 button on the far right. The USB sends and inputs can be selected from a menu
 in the folder icon, or they can be moved manually.
 
-![Routing Output Image](/assets/img/x-air_manual/android/Droid_routing_output.png)
+![Routing Output Image]({{ "/assets/img/x-air_manual/android/Droid_routing_output.png" | relative_url }})
 
 The Routing – Outputs page allows the Main LR, Phones,
 Aux and P16 sources to be reassigned.
 
 ### 6.14 Setup
 
-![Setup Menu Image](/assets/img/x-air_manual/android/Setup_menu.png)
+![Setup Menu Image]({{ "/assets/img/x-air_manual/android/Setup_menu.png" | relative_url }})
 
 The Setup menu is accessed via the top right corner of the Main View screen.
 This allows access to several global settings, network configurations
@@ -347,14 +347,14 @@ and layout features.
 
 ##### Preferences
 
-![Setup Preferences Image](/assets/img/x-air_manual/android/Setup_preferences.png)
+![Setup Preferences Image]({{ "/assets/img/x-air_manual/android/Setup_preferences.png" | relative_url }})
 
 The Preferences screen allows the auto mix X and Y buttons to be viewed
 on the Main View screen.
 
 #####  Monitor
 
-![Setup Monitor Image](/assets/img/x-air_manual/android/Setup_monitor.png)
+![Setup Monitor Image]({{ "/assets/img/x-air_manual/android/Setup_monitor.png" | relative_url }})
 
 The Solo Channel and Solo Bus can operate in pre-fader or after-fader listen mode.
 The solo level can be adjusted if necessary as well. A dimmer can be engaged
@@ -365,7 +365,7 @@ which will be heard when no sources are soloed.
 
 ##### Audio/MIDI
 
-![Setup MIDI Image](/assets/img/x-air_manual/android/Setup_midi.png)
+![Setup MIDI Image]({{ "/assets/img/x-air_manual/android/Setup_midi.png" | relative_url }})
 
 The Setup – Audio/MIDI page allows editing of MIDI receive (Rx)
 and transmit (Tx) settings, as well as several global system parameters.
@@ -429,14 +429,14 @@ which items are activated at the bottom of the Audio/MIDI page.
 
 ##### Network
 
-![Setup Network Image](/assets/img/x-air_manual/android/Setup_network.png)
+![Setup Network Image]({{ "/assets/img/x-air_manual/android/Setup_network.png" | relative_url }})
 
 This screen allows the configuration of your wireless network connection.
 See the Network Connection chapter for details.
 
 ##### Layers
 
-![Setup Layers Image](/assets/img/x-air_manual/android/Setup_layers.png)
+![Setup Layers Image]({{ "/assets/img/x-air_manual/android/Setup_layers.png" | relative_url }})
 
 The Setup – Layers page allows the order of channels and buses to be altered.
 By default, only 8 channels are visible on the Main View screen at one time,
@@ -445,7 +445,7 @@ at once. A new layer can also be created to contain a custom mix of inputs
 and buses. By increasing the visible channels per layer to 9, the Main LR fader
 could be added to all of the fader banks so it is always available for adjustment.
 
-![Setup Custom Image](/assets/img/x-air_manual/android/Droid_setup_custom.png)
+![Setup Custom Image]({{ "/assets/img/x-air_manual/android/Droid_setup_custom.png" | relative_url }})
 
 Custom layers can be saved and recalled later, and the layers can be restored
 to their default settings. The Setup menu also allows quick access
@@ -453,7 +453,7 @@ to the Scribble Strips for changing channel names and colors.
 
 ##### Scribble Strip
 
-![Setup Scribble Strip Image](/assets/img/x-air_manual/android/Scribble_strip.png)
+![Setup Scribble Strip Image]({{ "/assets/img/x-air_manual/android/Scribble_strip.png" | relative_url }})
 
 The Scribble Strip page allows a custom name and color to be assigned
 for each channel, bus, FX send/return, and DCA group.

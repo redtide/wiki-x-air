@@ -3,7 +3,7 @@ lang: en
 title: 2.1 X18/XR18 Callouts
 ---
 
-![X18/XR18 Callouts Image](/assets/img/x-air_manual/X18_callouts.png)
+![X18/XR18 Callouts Image]({{ "/assets/img/x-air_manual/X18_callouts.png" | relative_url }})
 
 1. INPUTS accept balanced and unbalanced XLR and ¼ " plugs. Inputs 1 and 2 have
     high-impedance preamps for direct connection of guitars and basses.

@@ -42,7 +42,7 @@ to return to default network settings.
 
 ---
 
-![Ethernet Setup Image](/assets/img/x-air_manual/Ethernet_setup.png)
+![Ethernet Setup Image]({{ "/assets/img/x-air_manual/Ethernet_setup.png" | relative_url }})
 
 ### 4.2 Ethernet/LAN
 
@@ -56,7 +56,7 @@ prevent unauthorized access.
 
 ---
 
-![Wifi Client Setup Image](/assets/img/x-air_manual/Wifi_client_setup.png)
+![Wifi Client Setup Image]({{ "/assets/img/x-air_manual/Wifi_client_setup.png" | relative_url }})
 
 ### 4.3 Wifi Client
 
@@ -82,7 +82,7 @@ remote applications on any device connected to the same network.
 
 ---
 
-![Access Point Setup Image](/assets/img/x-air_manual/Access_point_setup.png)
+![Access Point Setup Image]({{ "/assets/img/x-air_manual/Access_point_setup.png" | relative_url }})
 
 ### 4.4 Access Point
 

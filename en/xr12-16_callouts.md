@@ -3,7 +3,7 @@ lang: en
 title: 2.2 XR12/16 Callouts
 ---
 
-![XR12/16 Callouts Image](/assets/img/x-air_manual/XR12_callouts.png)
+![XR12/16 Callouts Image]({{ "/assets/img/x-air_manual/XR12_callouts.png" | relative_url }})
 
 1. ETHERNET port allows the mixer to be controlled via LAN or connected Wifi router.
 

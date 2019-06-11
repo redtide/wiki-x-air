@@ -28,7 +28,7 @@ on a laptop/desktop running Windows, OS X or Linux.
 
 ### 7.1 Main View and Mixer Tab
 
-![Main View and Mixer Image](/assets/img/x-air_manual/pc/PC_main_view_and_mixer.png)
+![Main View and Mixer Image]({{ "/assets/img/x-air_manual/pc/PC_main_view_and_mixer.png" | relative_url }})
 
 1. The Navigation Tabs allow quick access to various edit menus.
 
@@ -94,7 +94,7 @@ as well as basic control over the noise gate, compressor and bus sends.
 Most of the adjustments on this tab can also be found in greater detail
 on other tabs.
 
-![Channel Tab Image](/assets/img/x-air_manual/pc/PC_channel_tab_co.png)
+![Channel Tab Image]({{ "/assets/img/x-air_manual/pc/PC_channel_tab_co.png" | relative_url }})
 
 1. Click the FX button to engage an insert effect.
     The specific FX block is selected with the adjacent pull-down menu.
@@ -134,7 +134,7 @@ on other tabs.
 The Input tab allows adjustment of the most common preamp parameters
 as well as specific routing for the input and insert.
 
-![Input Tab Image](/assets/img/x-air_manual/pc/PC_input_tab_co.png)
+![Input Tab Image]({{ "/assets/img/x-air_manual/pc/PC_input_tab_co.png" | relative_url }})
 
 1. The Stereo Link button allows a channel to be paired with the adjacent channel
     in a stereo pair. The fader level, gain setting, bus sends, etc. will be the
@@ -164,7 +164,7 @@ as well as specific routing for the input and insert.
 The Gate tab allows a noise gate to be engaged and adjusted to automatically
 remove unwanted noise.
 
-![Gate Tab Image](/assets/img/x-air_manual/pc/PC_gate_tab_co.png)
+![Gate Tab Image]({{ "/assets/img/x-air_manual/pc/PC_gate_tab_co.png" | relative_url }})
 
 1. Select one of the 4 Presets to automatically optimize the parameters
     for one of these common sources.
@@ -204,7 +204,7 @@ remove unwanted noise.
 
 ### 7.5 EQ Tab
 
-![EQ Tab Image](/assets/img/x-air_manual/pc/PC_eq_tab_co.png)
+![EQ Tab Image]({{ "/assets/img/x-air_manual/pc/PC_eq_tab_co.png" | relative_url }})
 
 1. Engage the Low Cut and adjust the specific frequency to remove unwanted lows.
 
@@ -240,7 +240,7 @@ remove unwanted noise.
 
 ### 7.6 Comp Tab
 
-![Comp Tab Image](/assets/img/x-air_manual/pc/PC_comp_tab_co.png)
+![Comp Tab Image]({{ "/assets/img/x-air_manual/pc/PC_comp_tab_co.png" | relative_url }})
 
 1. Select one of the 4 Presets to automatically optimize the parameters
     for one of these common sources.
@@ -292,7 +292,7 @@ remove unwanted noise.
 
 ### 7.7 Sends Tab
 
-![Sends Tab Image](/assets/img/x-air_manual/pc/PC_sends_tab.png)
+![Sends Tab Image]({{ "/assets/img/x-air_manual/pc/PC_sends_tab.png" | relative_url }})
 
 The Sends tab allows the currently-selected channel's signal to be routed
 to the 6 Aux buses and to the 4 FX processors. These adjustments can also
@@ -305,7 +305,7 @@ on all channels.
 
 ### 7.8 Main Tab
 
-![Main Tab Image](/assets/img/x-air_manual/pc/PC_main_tab.png)
+![Main Tab Image]({{ "/assets/img/x-air_manual/pc/PC_main_tab.png" | relative_url }})
 
 All of the controls on the Main tab are also accessible from the Channel tab.
 The channel's signal can be unassigned from the main output, which is useful
@@ -316,7 +316,7 @@ be adjusted and DCA, Mute Group and Auto Mix assignments can be made as well.
 
 ### 7.9 FX Tab
 
-![FX Tab Image](/assets/img/x-air_manual/pc/PC_FX_tab.png)
+![FX Tab Image]({{ "/assets/img/x-air_manual/pc/PC_FX_tab.png" | relative_url }})
 
 The FX tab has 4 effect processors that can be routed and adjusted to various
 channels and buses. A new effect can be selected by clicking the pull-down menu
@@ -331,7 +331,7 @@ See the Effects Overview chapter for more details.
 
 ### 7.10 Meter Tab
 
-![Meter Tab Image](/assets/img/x-air_manual/pc/PC_meter_tab.png)
+![Meter Tab Image]({{ "/assets/img/x-air_manual/pc/PC_meter_tab.png" | relative_url }})
 
 The Meter tab allows easy monitoring of all analog and digital levels,
 including USB channels, Buses, Ultranet outputs, and the Main and Solo buses.
@@ -343,7 +343,7 @@ various global parameters to be selected and adjusted.
 
 ##### Connection Tab
 
-![Connection Tab Image](/assets/img/x-air_manual/pc/PC_setup_connection.png)
+![Connection Tab Image]({{ "/assets/img/x-air_manual/pc/PC_setup_connection.png" | relative_url }})
 
 After you connect your computer to the internal Access Point or external router,
 the software will likely automatically recognize the mixer and ask to connect.
@@ -364,14 +364,14 @@ important scenes to your computer's hard drive.
 
 ##### Access Point, WLAN, LAN Tabs
 
-![Access Point, WLAN, LAN Tabs Image](/assets/img/x-air_manual/pc/PC_setup_access_wlan_lan.png)
+![Access Point, WLAN, LAN Tabs Image]({{ "/assets/img/x-air_manual/pc/PC_setup_access_wlan_lan.png" | relative_url }})
 
 The Access Point, WLAN and LAN tabs allow the wireless connection to be configured.
 See the 'Network Connection' chapter for details.
 
 ##### Audio/MIDI Tab
 
-![Audio/MIDI Tab Image](/assets/img/x-air_manual/pc/PC_setup_audio_midi.png)
+![Audio/MIDI Tab Image]({{ "/assets/img/x-air_manual/pc/PC_setup_audio_midi.png" | relative_url }})
 
 Activate the desired MIDI transmit and receive options for the physical MIDI
 ports and the USB MIDI in the menu. Enabling DIN/USB Rx allows the XR to receive
@@ -434,7 +434,7 @@ for the MIDI configuration.
 
 ##### Monitor Tab
 
-![Monitor Tab Image](/assets/img/x-air_manual/pc/PC_setup_monitor_2.png)
+![Monitor Tab Image]({{ "/assets/img/x-air_manual/pc/PC_setup_monitor_2.png" | relative_url }})
 
 The monitor source defaults to the main LR (post-fader), but you can select
 a bus, aux, USB 17/18 or a combination of buses. Soloed channels and buses
@@ -445,7 +445,7 @@ to mono and can be muted from this page.
 
 ##### Preferences Tab
 
-![Preferences Tab Image](/assets/img/x-air_manual/pc/PC_setup_preferences.png)
+![Preferences Tab Image]({{ "/assets/img/x-air_manual/pc/PC_setup_preferences.png" | relative_url }})
 
 Select the 'Apply changes to all channels' option if you would like changes
 made to bus send taps (pre/post-EQ, etc) to be applied to all channels.
@@ -477,7 +477,7 @@ for immediate recall. For example, quick changes can be selected
 for different acts of a play, performances in a music festival
 with several bands, or different church services.
 
-![Snapshot Page Image](/assets/img/x-air_manual/pc/PC_snapshot_2.png)
+![Snapshot Page Image]({{ "/assets/img/x-air_manual/pc/PC_snapshot_2.png" | relative_url }})
 
 Click the ‘Snapshots’ icon on the right hand side of the main screen.
 A window will open with a list of parameters to select for recall.
@@ -519,7 +519,7 @@ easily controlled on other windows or menus.
 
 ##### RTA Utility
 
-![RTA Utility Image](/assets/img/x-air_manual/pc/PC_utility_RTA_3.png)
+![RTA Utility Image]({{ "/assets/img/x-air_manual/pc/PC_utility_RTA_3.png" | relative_url }})
 
 The RTA utility allows customization of the appearance and functionality
 of the real time analyzer. The RTA Source pull-down menu allows
@@ -549,7 +549,7 @@ or RMS to view an average response over a longer period of time.
 
 ##### Buses Utility
 
-![Buses Utility Image](/assets/img/x-air_manual/pc/PC_utility_buses.png)
+![Buses Utility Image]({{ "/assets/img/x-air_manual/pc/PC_utility_buses.png" | relative_url }})
 
 The Buses utility window gives convenient access to all of the channel strip
 functions of all 6 buses and the main LR at the same time. This window can be
@@ -558,7 +558,7 @@ individual buses in the main window.
 
 ##### DCA Utility
 
-![DCA Utility Image](/assets/img/x-air_manual/pc/PC_utility_DCAs.png)
+![DCA Utility Image]({{ "/assets/img/x-air_manual/pc/PC_utility_DCAs.png" | relative_url }})
 
 Similar to the Buses utility, the DCA utility window allows all 4 DCA groups
 to be easily monitored and adjusted.
@@ -570,7 +570,7 @@ is normally visible in the mixer tab in the main window.
 
 ### 7.14 Auto Mix
 
-![Auto Mix Image](/assets/img/x-air_manual/pc/PC_auto_mix.png)
+![Auto Mix Image]({{ "/assets/img/x-air_manual/pc/PC_auto_mix.png" | relative_url }})
 
 The Auto Mix function is very useful for meetings or panel discussions
 where multiple microphones are used for speech. The mic channels can be assigned

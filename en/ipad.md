@@ -33,7 +33,7 @@ levels, as well as navigation to preamp controls, meters, FX slots and more.
 The channel strips can be swiped side to side to reveal all 21 faders,
 and the selected bus fader is always visible.
 
-![Main Screen Image](/assets/img/x-air_manual/ipad/N_ipad_main_screen.png)
+![Main Screen Image]({{ "/assets/img/x-air_manual/ipad/N_ipad_main_screen.png" | relative_url }})
 
 1. The Channel Strip control section gives a quick reference to the status
     of phantom power, aux send levels, pan, etc., but no adjustments are made
@@ -82,7 +82,7 @@ Strip of the channel you wish to modify. If another menu such as Sends or Gate
 come up instead, the menus can be swiped side-to-side without returning
 to the Main Screen.
 
-![Input Image](/assets/img/x-air_manual/ipad/N_ipad_input.png)
+![Input Image]({{ "/assets/img/x-air_manual/ipad/N_ipad_input.png" | relative_url }})
 
 1. The Link button allows adjacent channels to be linked as a stereo pair.
     Moving one of the linked channels' fader will also adjust the other channel.
@@ -107,7 +107,7 @@ to the Main Screen.
 
 ### 5.3 Sends
 
-![Sends Image](/assets/img/x-air_manual/ipad/N_ipad_sends.png)
+![Sends Image]({{ "/assets/img/x-air_manual/ipad/N_ipad_sends.png" | relative_url }})
 
 The Sends tab allows the currently selected channel’s signal to be routed
 to the 6 Aux outputs and to the 4 Effects processors. Aux and Effects routing
@@ -121,7 +121,7 @@ or advanced screen can be selected. The standard view offers 4 presets
 and a threshold adjustment, while the advanced view allows fine adjustment
 of the gate parameters.
 
-![Gate Image](/assets/img/x-air_manual/ipad/N_ipad_gate_basic.png)
+![Gate Image]({{ "/assets/img/x-air_manual/ipad/N_ipad_gate_basic.png" | relative_url }})
 
 1. Engage the gate with the on/off button.
 
@@ -132,8 +132,8 @@ automatically.
 3. Press this button to open the preset list where your settings can be saved
 can recalled.
 
-![Gate Advanced Image](/assets/img/x-air_manual/ipad/N_ipad_gate_adv.png)
-![Gate Key Image](/assets/img/x-air_manual/ipad/N_ipad_gate_key.png)
+![Gate Advanced Image]({{ "/assets/img/x-air_manual/ipad/N_ipad_gate_adv.png" | relative_url }})
+![Gate Key Image]({{ "/assets/img/x-air_manual/ipad/N_ipad_gate_key.png" | relative_url }})
 
 1. Engage the gate with the on/off button.
 
@@ -180,7 +180,7 @@ reducing the dynamic range of a signal, allowing the perceived volume in the mix
 to be raised without clipping. An expander can add dynamics by attenuating
 a signal when it drops below the predetermined threshold.
 
-![Dynamics Basic Image](/assets/img/x-air_manual/ipad/N_ipad_dyn_basic.png)
+![Dynamics Basic Image]({{ "/assets/img/x-air_manual/ipad/N_ipad_dyn_basic.png" | relative_url }})
 
 1. Engage the compressor with the on/off button.
 
@@ -190,8 +190,8 @@ a signal when it drops below the predetermined threshold.
 3. Press this button to open the preset list where your settings can be saved
     can recalled.
 
-![Dynamics Advanced Image](/assets/img/x-air_manual/ipad/N_ipad_dyn_adv.png)
-![Dynamics Key Image](/assets/img/x-air_manual/ipad/N_ipad_dyn_key.png)
+![Dynamics Advanced Image]({{ "/assets/img/x-air_manual/ipad/N_ipad_dyn_adv.png" | relative_url }})
+![Dynamics Key Image]({{ "/assets/img/x-air_manual/ipad/N_ipad_dyn_key.png" | relative_url }})
 
 1. Engage the dynamics processor with the on/off button.
 
@@ -240,7 +240,7 @@ a signal when it drops below the predetermined threshold.
 
 ### 5.6 Channel EQ
 
-![Channel EQ Image](/assets/img/x-air_manual/ipad/N_ipad_chan_eq.png)
+![Channel EQ Image]({{ "/assets/img/x-air_manual/ipad/N_ipad_chan_eq.png" | relative_url }})
 
 1. Select the type of EQ for each of the 4 bands. Typically cut or shelf EQs are
     used for the highs and lows, whereas PEQ (parametric)
@@ -270,14 +270,14 @@ a signal when it drops below the predetermined threshold.
 
 ### 5.7 Insert
 
-![Insert Image](/assets/img/x-air_manual/ipad/N_ipad_insert.png)
+![Insert Image]({{ "/assets/img/x-air_manual/ipad/N_ipad_insert.png" | relative_url }})
 
 Press the folder icon to engage the insert effect.
 Scroll through the list of effects blocks to select the desired routing.
 
 ### 5.8 Presets
 
-![Presets Image](/assets/img/x-air_manual/ipad/N_ipad_presets.png)
+![Presets Image]({{ "/assets/img/x-air_manual/ipad/N_ipad_presets.png" | relative_url }})
 
 The Presets tab allows channel presets to be recalled, edited and saved.
 Press the page icon on the right to save a new preset. Press the pencil icon
@@ -286,7 +286,7 @@ to save changes or load that preset.
 
 ### 5.9 Output
 
-![Output Image](/assets/img/x-air_manual/ipad/N_ipad_output.png)
+![Output Image]({{ "/assets/img/x-air_manual/ipad/N_ipad_output.png" | relative_url }})
 
 The panorama can be adjusted to position the channel in the stereo field.
 
@@ -296,7 +296,7 @@ The Meters page is accessed via the icon at the top of the main screen.
 This page allows easy monitoring of all analog and digital levels, including USB
 channels, Gate and Dynamics activity, P-16 channels and the Main and Solo buses.
 
-![Meters Image](/assets/img/x-air_manual/ipad/N_ipad_meters.png)
+![Meters Image]({{ "/assets/img/x-air_manual/ipad/N_ipad_meters.png" | relative_url }})
 
 ### 5.11 Shows
 
@@ -307,7 +307,7 @@ Press the pencil icon to edit or delete a saved show or snapshot.
 Pressing on a show or snapshot will allow any changes to be saved,
 or for a new snapshot to be loaded.
 
-![Shows Image](/assets/img/x-air_manual/ipad/N_ipad_shows.png)
+![Shows Image]({{ "/assets/img/x-air_manual/ipad/N_ipad_shows.png" | relative_url }})
 
 ### 5.12 Effects
 
@@ -317,11 +317,11 @@ the application. Press the folder icon to activate an effect block. Press Edit
 to select a different effect, and press on the effect graphic to edit parameters.
 See the Effects Descriptions chapter for more details.
 
-![Effects Image](/assets/img/x-air_manual/ipad/N_ipad_effects.png)
+![Effects Image]({{ "/assets/img/x-air_manual/ipad/N_ipad_effects.png" | relative_url }})
 
 ### 5.13 Routing
 
-![Effects Image](/assets/img/x-air_manual/ipad/N_ipad_routing.png)
+![Effects Image]({{ "/assets/img/x-air_manual/ipad/N_ipad_routing.png" | relative_url }})
 
 The Routing page allows the analog and digital inputs and outputs to be
 reassigned to different destinations. Select the group of inputs or outputs you
@@ -334,7 +334,7 @@ The Setup page is accessed via the icon at the top of the main screen.
 This allows the channel layout to be modified, a console reset,
 and network settings to be adjusted.
 
-![Setup Channels Image](/assets/img/x-air_manual/ipad/N_ipad_setup_chan.png)
+![Setup Channels Image]({{ "/assets/img/x-air_manual/ipad/N_ipad_setup_chan.png" | relative_url }})
 
 Press the Edit button to reorder the input, aux and effects channels.
 To return to the standard configuration, press the Reset button.
@@ -345,12 +345,12 @@ The scribble strips are also edited on this page. Press a channel's blank box
 to assign a color and name for that channel.
 The buses and effect blocks can also be edited.
 
-![Setup Network Image](/assets/img/x-air_manual/ipad/N_ipad_setup_network.png)
+![Setup Network Image]({{ "/assets/img/x-air_manual/ipad/N_ipad_setup_network.png" | relative_url }})
 
 This screen allows the configuration of your wireless network connection.
 See the Network Connection chapter for details.
 
-![Setup MIDI Image](/assets/img/x-air_manual/ipad/N_ipad_setup_midi.png)
+![Setup MIDI Image]({{ "/assets/img/x-air_manual/ipad/N_ipad_setup_midi.png" | relative_url }})
 
 The Audio/MIDI tab allows global settings for audio, MIDI and monitor options.
 
@@ -400,12 +400,12 @@ There are 3 EQ options for the main and monitor buses: 6-band parametric,
 graphic, and “true” EQ. These are accessed by pressing the PEQ/GEQ/TEQ buttons
 on the right side.
 
-![Main EQ Image](/assets/img/x-air_manual/ipad/N_ipad_main_eq.png)
+![Main EQ Image]({{ "/assets/img/x-air_manual/ipad/N_ipad_main_eq.png" | relative_url }})
 
 This parametric EQ functions the same as the channel EQ,
 but there are 6 bands available.
 
-![Main EQ Graphic Image](/assets/img/x-air_manual/ipad/N_ipad_main_graphic.png)
+![Main EQ Graphic Image]({{ "/assets/img/x-air_manual/ipad/N_ipad_main_graphic.png" | relative_url }})
 
 The GEQ and TEQ types appear to be identical, but the “true” EQ compensates
 for adjacent frequency adjustments. Most graphic equalizers have a multiplying
