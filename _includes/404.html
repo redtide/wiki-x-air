@@ -1,0 +1,17 @@
+{%-assign t = site.data.locale[page.lang].translation-%}
+
+{{ t.404_content }}
+
+<div class="row my-4 justify-content-center">
+	<div class="col-md-7">
+		<p class="text-center">{{ t.search_website }}</p>
+		<form class="form-search" role="search" action="{{ '/' | append: page.lang | append: '/' | append: "search/" | relative_url }}">
+			<div class="input-group input-group-lg">
+				<input type="text" id="search-box" class="form-control searchbox" placeholder="{{ t.search_question }}" name="q">
+				<span class="input-group-append">
+					<button class="btn btn-primary" type="submit" value="search">{{ t.search }}</button>
+				</span>
+			</div>
+		</form>
+	</div>
+</div>

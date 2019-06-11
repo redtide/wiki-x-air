@@ -1,5 +1,5 @@
 ---
-title: Search
-lang: en
+title: "Search"
+lang: "en"
 ---
 {% include search.html %}
