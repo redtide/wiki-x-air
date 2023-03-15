@@ -14,7 +14,10 @@ defaults:
     path: ""
     type: "posts"
   values:
-    layout: "post"
+    layout:     "post"
+    date_fmt:   "%F"
+    categories: "news"
+    comments:   false
 
 exclude:
 - assets/css/style.css
@@ -25,14 +28,13 @@ exclude:
 - Gemfile
 - Gemfile.lock
 - LICENSE
-- new_post
+- new_post.sh
 - node_modules
 - package.json
 - package-lock.json
 - Rakefile
 - README.md
 - setup.sh
-- site.code-workspace
 - TODO.md
 - yarn.lock
 - yarn-error.log
