@@ -4,9 +4,8 @@ _site
 .bundle
 .vendor
 .vscode
-assets/css/*.map
-assets/css/style.css
-assets/js/*.map
+assets/css
+assets/js
 vendor/*
 node_modules
 Gemfile.lock
