@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>News</title>
+	<link href="https://redtide.github.io/wiki-x-air/en/atom.xml" rel="self"/>
+	<link href="https://redtide.github.io/wiki-x-air/en/"/>
+	<updated>2023-03-15T13:10:47+00:00</updated>
+	<id>https://redtide.github.io/wiki-x-air</id>
+	<entry>
+		<title>New Website Launched</title>
+		<link href="https://redtide.github.io/wiki-x-air/news/2019/05/17/new-website-launched.html"/>
+		<updated>2019-05-17T00:00:00+00:00</updated>
+		<id>/news/2019/05/17/new-website-launched</id>
+		<content type="html">&lt;p&gt;We’re proud to announce a new website!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Built on &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Most content is authored in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt; format.&lt;/li&gt;
+  &lt;li&gt;Utilizes &lt;a href=&quot;http://getbootstrap.com/&quot;&gt;Bootstrap&lt;/a&gt; for easy skinning and responsive design,
+making the website available to mobile devices.&lt;/li&gt;
+  &lt;li&gt;Utilizes &lt;a href=&quot;http://fontawesome.io/&quot;&gt;FontAwesome&lt;/a&gt; and &lt;a href=&quot;https://realfavicongenerator.net/&quot;&gt;Favicon Generator&lt;/a&gt; for content and website icons.&lt;/li&gt;
+  &lt;li&gt;Allows for comments on news posts using &lt;a href=&quot;https://disqus.com&quot;&gt;Disqus&lt;/a&gt;: let us know what you think!&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+	</entry>
+
+</feed>
+

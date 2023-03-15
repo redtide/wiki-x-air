@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+
+		<title>4. Network Connection - X-AIR</title>
+
+		<meta name="author" content="Behringer">
+		<meta name="web-author" content="redtide">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Atom Feeds -->
+		<link href="/atom.xml" rel="alternate" title="News" type="application/atom+xml" />
+
+		<!-- Favicon Generator Icons -->
+		<link rel="apple-touch-icon" sizes="180x180" href="/assets/ico/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/assets/ico/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/assets/ico/favicon-16x16.png">
+		<link rel="manifest" href="/assets/ico/site.webmanifest">
+		<link rel="mask-icon" href="/assets/ico/safari-pinned-tab.svg" color="#5bbad5">
+		<link rel="shortcut icon" href="/assets/ico/favicon.ico">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="msapplication-config" content="/assets/ico/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+		<!-- Stylesheets -->
+		<link href="/assets/css/style.min.css" rel="stylesheet" media="screen">
+		
+		<!-- Font Awesome Icons -->
+		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js" integrity="sha384-sCI3dTBIJuqT6AwL++zH7qL8ZdKaHpxU43dDt9SyOzimtQ9eyRhkG3B7KMl6AO19" crossorigin="anonymous"></script>
+		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+
+	</head>
+
+	<body>
+
+		<button onclick="topFunction()" id="scrollButton" title="Go to top">Top</button>
+		<a href="#content" class="sr-only">Skip to content</a>
+		<div class="container">
+
+			<nav class="navbar navbar-expand-lg navbar-dark rounded">
+				<a class="navbar-brand" href="/en/">
+					<img src="/assets/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+					X-AIR
+				</a>
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+					aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarContent">
+					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+
+	
+		
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarManual" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false"> Manual</a>
+							<div class="dropdown-menu" aria-labelledby="navbarManual">
+		
+			
+								<a class="dropdown-item" href="/en/">1. Introduction</a>
+			
+		
+			
+								<a class="dropdown-item" href="/en/x18-xr18_callouts">2.1 X18/XR18 Callouts</a>
+			
+		
+			
+								<a class="dropdown-item" href="/en/xr12-16_callouts">2.2 XR12/16 Callouts</a>
+			
+		
+			
+								<a class="dropdown-item" href="/en/x18-xr18_hookups">3.1 X18/XR18 Hookups</a>
+			
+		
+			
+								<a class="dropdown-item" href="/en/xr12-16_hookups">3.2 XR12/16 Hookups</a>
+			
+		
+			
+								<a class="dropdown-item" href="/en/network_connection">4. Network Connection</a>
+			
+		
+			
+								<a class="dropdown-item" href="/en/ipad">5. X AIR for iPad</a>
+			
+		
+			
+								<a class="dropdown-item" href="/en/android">6. X AIR for Android</a>
+			
+		
+			
+								<a class="dropdown-item" href="/en/pc">7. X AIR for PC</a>
+			
+		
+			
+								<a class="dropdown-item" href="/en/midi">8. MIDI</a>
+			
+		
+			
+								<a class="dropdown-item" href="/en/x18-xr18_specifications">9.1 X18/XR18 Specifications</a>
+			
+		
+			
+								<a class="dropdown-item" href="/en/xr12-16_specifications">9.2 XR12/16 Specifications</a>
+			
+		
+			
+								<a class="dropdown-item" href="/en/effect_descriptions">10. Effect Descriptions</a>
+			
+		
+			
+								<a class="dropdown-item" href="/en/videos">11. Instructional Videos</a>
+			
+		
+			
+								<a class="dropdown-item" href="/en/diagrams">12. Block Diagrams</a>
+			
+		
+							</div>
+	
+						</li>
+
+	
+		
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDownloads" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false"> Downloads</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDownloads">
+		
+			
+								<a class="dropdown-item" href="https://www.behringer.com//Categories/Behringer/Mixers/Digital/XR12/p/P0BI6/Downloads">XR12</a>
+			
+		
+			
+								<a class="dropdown-item" href="https://www.behringer.com//Categories/Behringer/Mixers/Digital/XR16/p/P0BI7/Downloads">XR16</a>
+			
+		
+			
+								<a class="dropdown-item" href="https://www.behringer.com//Categories/Behringer/Mixers/Digital/XR16/p/P0BI8/Downloads">XR18</a>
+			
+		
+			
+								<a class="dropdown-item" href="https://www.behringer.com//Categories/Behringer/Mixers/Digital/X18/p/P0AWZ/Downloads">X18</a>
+			
+		
+							</div>
+	
+						</li>
+
+					</ul>
+				</div>
+				<form class="form-inline my-2 my-lg-0" role="search" action="/en/search/">
+					<input class="form-control mr-sm-2" type="search" name="q" placeholder="Search" aria-label="Search">
+				</form>
+			</nav>
+
+			<div class="row mt-4" id="content">
+				<div class="col-md-9">
+					<article>
+						<h1>4. Network Connection</h1>
+<p>The X AIR mixers offer convenient digital control of the various mixing functions
+in three different ways - via Ethernet LAN, or wirelessly as a Wifi Client or
+as an Access Point. Selection is made with the REMOTE switch [12]. You may view
+or change the network preferences for these on any of the X AIR remote control
+applications on the ’Setup/Network’ page.</p>
+
+<h3 id="41-ip-address-and-dhcp">4.1 IP Address and DHCP</h3>
+
+<p>Depending on the connection scenario, the X(R)18 offers up to 3 options for
+connecting a tablet or PC for software control – DHCP Client, DHCP Server, and
+fixed IP operation. Connection is achieved differently depending on which option
+you choose:</p>
+
+<ul>
+  <li>
+    <p>DHCP Client mode is available in Ethernet LAN or Wifi Client operation.
+The mixer will automatically request an IP lease from the DHCP server that owns
+the IP addresses in the network to which you are trying to connect.</p>
+  </li>
+  <li>
+    <p>DHCP Server (DHCPS) is optionally available for Ethernet LAN connections and is
+standard in Access Point operation. The mixer will own the IP addresses and
+provide IP leases to devices requesting access to that network. The mixer will
+always use IP address 192.168.1.1 and assign IP addresses
+192.168.1.101 – 192.168.1.132 to its clients.</p>
+  </li>
+  <li>
+    <p>Static IP is available for Ethernet LAN and Wifi Client operation. The mixer
+will use the fixed (static) IP address, subnet mask and gateway that you specify
+for registering on the network. Make sure that the addresses you specify manually
+are not conflicting with any other addresses on the same network. We generally
+recommend using the DHCP mode, unless you have a very specific reason
+to set it up manually.</p>
+  </li>
+</ul>
+
+<p><strong><em>Note</em></strong>: Changing parameters of the currently selected connection mode will
+disconnect the software from the console. If the console is erroneously
+configured for a fixed IP address that is incompatible with the network it is
+connected to, the console will be inaccessible. In this case, one of the other
+two connection modes can be used to regain access and amend the settings.
+If that does not work, hold the Reset button for 2 seconds
+to return to default network settings.</p>
+
+<hr />
+
+<p><img src="/assets/img/x-air_manual/Ethernet_setup.png" alt="Ethernet Setup Image" /></p>
+
+<h3 id="42-ethernetlan">4.2 Ethernet/LAN</h3>
+
+<p>This mode supports DHCP Client (default), DHCP Server, and fixed IP operation.
+Note that if the X(R)18 is connected to a network where no DHCP server is present,
+the mixer will generate an automatic IP address (range 169.254.1.0 – 169.254.254.255).
+There are no security options for LAN connections, so any device in that network
+may take control of connected X(R)18 consoles. When connecting via LAN/Ethernet
+to a Wifi router, make sure the security settings of that router
+prevent unauthorized access.</p>
+
+<hr />
+
+<p><img src="/assets/img/x-air_manual/Wifi_client_setup.png" alt="Wifi Client Setup Image" /></p>
+
+<h3 id="43-wifi-client">4.3 Wifi Client</h3>
+
+<p>This mode supports DHCP Client (default) and fixed IP operation.
+The X(R)18 can support WEP, WPA and WPA2 security mechanisms
+in Wifi Client mode and works on Wifi channels 1-11.</p>
+
+<p>Correct SSID (network name) and password need to be supplied to connect
+to an existing network. WEP passwords have to be either 5 characters or
+13 characters long. If the supplied SSID and password are incorrect, the mixer
+cannot be accessed. In this case the networking parameters have to be reset
+and another connection mode has to be used to regain access.</p>
+
+<p>The Ethernet connection mode may be used for configuration of the Wifi Client mode.
+While being connected in Ethernet mode, the X AIR mixer can scan the available
+wireless networks and display their SSID network names, field strength and
+security method. By selecting the preferred wireless network, this information
+can be copied to the applications’ Wifi Client setup page automatically.
+You will then be prompted to fill in the security password of that network.
+After switching from Ethernet to Wifi Client mode, the mixer should connect to
+the selected wireless network automatically, and will be displayed by
+remote applications on any device connected to the same network.</p>
+
+<hr />
+
+<p><img src="/assets/img/x-air_manual/Access_point_setup.png" alt="Access Point Setup Image" /></p>
+
+<h3 id="44-access-point">4.4 Access Point</h3>
+
+<p>This mode only supports DHCP Server operation with a maximum of 4 clients,
+working on Wifi channels 1-11. Security is supported via WEP 40-bit
+(5 ASCII characters) or WEP 104-bit (13 ASCII characters). By default, the mixer
+will use a network name consisting of the model name plus the last bits
+of the mixer’s unique MAC address (e.g. XR18-17-BE-C0). The default IP address
+is 192.168.1.1 and no security is engaged.</p>
+
+<p>The control software is available for Android and iPad tablets as well
+as PC/Mac/Linux computers. Visit behringer.com to download the PC/Mac/Linux
+software. The tablet software can be downloaded from the app store on your device.</p>
+
+<hr />
+
+<h3 id="45-getting-started">4.5 Getting Started</h3>
+
+<p>First Wifi remote connection to your X AIR mixer</p>
+
+<ol>
+  <li>Download and install the remote control app for your device.</li>
+</ol>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>• Android smartphones/tablets: X AIR Android from the Google Play store
+• Apple iPad: X AIR for iPad from the Apple* App store
+• PC: X AIR EDIT for Windows, Mac or Linux from behringer.com
+</code></pre></div></div>
+
+<ol>
+  <li>
+    <p>Set the REMOTE switch on your X AIR mixer to ACCESS POINT mode and power
+ on the mixer.</p>
+  </li>
+  <li>
+    <p>Reset your X AIR mixer’s network settings to default values by holding
+ the RESET button for 2 seconds. This is located in the small hole above
+ the Wifi icon and requires a paper clip or similar tool to reach.</p>
+  </li>
+  <li>
+    <p>Switch your remote control device on and open the network settings.</p>
+  </li>
+</ol>
+
+<h5 id="android-smartphonestablets">Android smartphones/tablets</h5>
+
+<ol>
+  <li>
+    <p>Start the Settings/Wireless &amp; Networks dialog on your Android system.</p>
+  </li>
+  <li>
+    <p>Switch ’Wifi ’ on.</p>
+  </li>
+  <li>
+    <p>Click on ’Wifi ’ to select a network. From the list of networks,
+ select your X AIR mixer’s name, e.g. “XR18-19-1B-07”. After a few seconds,
+ the status should change to ’Connected’.</p>
+  </li>
+  <li>
+    <p>Open your X AIR for Android app and it will show similar information:</p>
+  </li>
+</ol>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>• Mix Access = All
+• IP Address = 192.168.1.1
+• Wifi Lock = None
+• Wifi connected to XR18-19-1B-07
+</code></pre></div></div>
+<ol>
+  <li>
+    <p>You may choose to lock the connection to this specific Wifi network
+ if you want to ensure that your device cannot automatically connect
+ to another network while you are controlling your mixer.</p>
+  </li>
+  <li>
+    <p>Click on ’Connect’ and tap on the mixer’s name in order to connect the app
+ with your mixer. Note - if a warning pops up telling you that
+ the mixer firmware is not supported, it is recommended to update
+ the firmware to the latest version (see the X18 pages on behringer.com
+ for details). You can, however, choose to connect anyway.</p>
+  </li>
+  <li>
+    <p>Once the app is connected to your mixer,
+ all parameters will be loaded automatically.
+ Enjoy exploring all mixing functions of your X AIR mixer remotely!</p>
+  </li>
+</ol>
+
+<h5 id="apple-ipad">Apple iPad</h5>
+
+<ol>
+  <li>
+    <p>Start the Settings/Wifi dialog on your iOS.</p>
+  </li>
+  <li>
+    <p>Switch ’Wifi’ on.</p>
+  </li>
+  <li>
+    <p>Select your X AIR mixer’s name from the list of networks, e.g. “XR18-19-1B-07”.
+ After a couple of seconds, the status should change to ’Connected’,
+ indicated by a check mark.</p>
+  </li>
+  <li>
+    <p>Open your X AIR for iPad app and it will show any X AIR mixers (’Devices’)
+ found in that network, with their IP address, which in this case is 192.168.1.1.</p>
+  </li>
+  <li>
+    <p>Tap on the mixer’s icon to connect the app with your mixer. Note - if
+ a warning pops up telling you that the mixer firmware is not supported,
+ it is recommended to update the firmware to the latest version
+ (see the X18 pages on behringer.com for details).
+ You can, however, choose to connect anyway.</p>
+  </li>
+  <li>
+    <p>Once the app is connected to your mixer,
+ all parameters will be loaded automatically.
+ Enjoy exploring all mixing functions of your X AIR mixer remotely!</p>
+  </li>
+</ol>
+
+<h5 id="pc-x-air-edit-for-windows-mac-or-linux">PC: X AIR EDIT for Windows, Mac or Linux</h5>
+
+<ol>
+  <li>
+    <p>Open the Wireless Network Connections dialog on your operating system.</p>
+  </li>
+  <li>
+    <p>Make sure the ’WLAN’ or ’Wifi ’ adapter is switched on.</p>
+  </li>
+  <li>
+    <p>View the list of wireless networks and select your X AIR mixer’s name,
+ e.g. “XR18-19-1B-07”. After a couple of seconds, the status should change
+ to ’Connected’, indicated by a check mark.</p>
+  </li>
+  <li>
+    <p>Open your X AIR Editor for Win/Mac/Linux and click on ’Setup’.
+ The list will show any X AIR mixers found in that network, with their name
+ and IP address, which in this case is 192.168.1.1.</p>
+  </li>
+  <li>
+    <p>Click on your mixer’s name, e.g. “XR18-19-1B-07”, and confirm to synchronize
+ from mixer to PC in order to connect the app with your mixer. If a warning
+ pops up telling you that the mixer firmware is not supported, it is
+ recommended to update the firmware to the latest version
+ (see the X18 pages on behringer.com for details).
+ You can, however, choose to connect anyway.</p>
+  </li>
+  <li>
+    <p>Once the app is connected to your mixer,
+ all parameters will be transferred automatically.
+ Enjoy exploring all mixing functions of your X AIR mixer remotely!</p>
+  </li>
+</ol>
+
+					</article>
+				</div>
+				<div class="col-md-3">
+					<aside>
+
+
+					</aside>
+				</div>
+			</div>
+		</div>
+		<script src="/assets/js/scripts.min.js"></script>
+
+	</body>
+</html>
