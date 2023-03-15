@@ -33,7 +33,3 @@ Continue through this manual to learn all about the functionality of your mixer,
 as well as the X AIR software.
 
 </div>
-
-# Latest News
-
-{% include post.html %}
