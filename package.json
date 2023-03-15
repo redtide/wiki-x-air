@@ -5,11 +5,11 @@
 	"homepage": "https://github.com/redtide/wiki-x-air",
 	"scripts": {
 		"css": "node node_modules/npm-run-all/bin/run-s/index.js css-compile css-prefix css-minify",
-		"css-compile": "node node_modules/sass/sass --style=expanded _assets/scss/style.scss assets/css/style.css",
-		"css-prefix": "node node_modules/postcss-cli/bin/postcss --use autoprefixer --replace \"assets/css/*.css\" \"!assets/css/*.min.css\"",
-		"css-minify": "node node_modules/clean-css-cli/bin/cleancss -O1 --with-rebase --source-map --source-map-inline-sources --output assets/css/style.min.css assets/css/style.css",
+		"css-compile": "node node_modules/sass/sass.js _assets/scss/style.scss assets/css/style.css",
+		"css-prefix": "node node_modules/postcss-cli/index.js --use autoprefixer --replace \"assets/css/*.css\" \"!assets/css/*.min.css\"",
+		"css-minify": "node node_modules/clean-css-cli/bin/cleancss -O1 --source-map-inline-sources --output assets/css/style.min.css assets/css/style.css",
 		"js": "node node_modules/npm-run-all/bin/run-s/index.js js-minify",
-		"js-minify": "node node_modules/uglify-js/bin/uglifyjs --compress --mangle --comments \"/^!/\" --source-map \"includeSources,url=scripts.min.js.map\" --output assets/js/scripts.min.js node_modules/jquery/dist/jquery.min.js node_modules/bootstrap/dist/js/bootstrap.min.js _assets/js/*.js",
+		"js-minify": "node node_modules/uglify-js/bin/uglifyjs --compress --mangle --comments \"/^!/\" --source-map \"includeSources,url=scripts.min.js.map\" --output assets/js/scripts.min.js node_modules/jquery/dist/jquery.min.js node_modules/popper.js/dist/umd/popper.js node_modules/bootstrap/dist/js/bootstrap.min.js _assets/js/*.js",
 		"dist": "node node_modules/npm-run-all/bin/run-p/index.js css js"
 	},
 	"browserslist": [
@@ -24,18 +24,18 @@
 	},
 	"license": "CC0-1.0",
 	"engines": {
-		"node": ">= 10.13.0"
+		"node": ">= 16.13.0"
 	},
 	"dependencies": {
-		"autoprefixer": "^10.3.6",
-		"bootstrap": "4.6.1",
-		"clean-css-cli": "^5.3.3",
-		"jquery": ">=3.5.0",
-		"npm-run-all": "^4.1.5",
-		"popper.js": "^1.16.1",
-		"postcss": "^8.0.0",
-		"postcss-cli": "^8.0.0",
-		"sass": "^1.42.1",
-		"uglify-js": "^3.14.2"
+    "autoprefixer": "^10.4.0",
+    "bootstrap": "^4.6.1",
+    "clean-css-cli": "^5.4.2",
+    "jquery": "~3.6.0",
+    "npm-run-all": "^4.1.5",
+    "popper.js": "^1.16.1",
+    "postcss": "^8.4.4",
+    "postcss-cli": "^9.0.2",
+    "sass": "^1.51.0",
+    "uglify-js": "^3.9.1"
 	}
 }
