@@ -20,7 +20,10 @@ jobs:
           ruby-version: 2.7
           bundler-cache: true
       - name: Generate assets
-        run: yarn --no-bin-links && yarn dist
+        run: |
+          mkdir -p assets/css assets/js
+          yarn --no-bin-links
+          yarn dist
       - name: Build fork
         if: ${{ github.repository_owner != 'redtide' }}
         run: |
