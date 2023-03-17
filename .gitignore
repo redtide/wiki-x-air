@@ -1,14 +1,2 @@
-_site
-.sass-cache
-.jekyll-metadata
-.bundle
-.vendor
-.vscode
-assets/css
-assets/js
-vendor/*
-node_modules
-Gemfile.lock
-package-lock.json
-*.code-workspace
-*.log
+_site/
+.cache/

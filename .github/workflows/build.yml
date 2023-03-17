@@ -1,38 +1,30 @@
-name: Deploy Site
+name: Deploy site
 
-on: [push]
+on: { push: { branches: [master] } }
+
+permissions:
+  contents: write
 
 jobs:
-  build-website:
-    name: Website build
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Install node
-        uses: actions/setup-node@v3
         with:
-          node-version: '16'
-          cache: 'yarn'
-      - name: Install ruby
-        uses: ruby/setup-ruby@v1
+          submodules: recursive
+          # needed for accurate dates
+          fetch-depth: 0
+      - name: Install Python
+        uses: actions/setup-python@v4
         with:
-          ruby-version: 2.7
-          bundler-cache: true
-      - name: Generate assets
-        run: |
-          mkdir -p assets/css assets/js
-          yarn --no-bin-links
-          yarn dist
-      - name: Build site
-        run: |
-          bundle exec jekyll build \
-            --destination public/  \
-            --baseurl "/$(echo '${{ github.repository }}' | cut -d/ -f2)"
-      - name: Upload to GitHub pages
-        if: ${{ github.ref_name == 'master' && github.event_name != 'pull_request' }}
-        uses: peaceiris/actions-gh-pages@v3
+          python-version: 3.x
+      - name: Cache build data
+        uses: actions/cache@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: www
-          publish_dir: ./public
+          key: ${{ github.ref }}
+          path: .cache
+      - name: Install MKDocs
+        run: pip install mkdocs-material
+      - name: Build and deploy
+        run: mkdocs gh-deploy --force

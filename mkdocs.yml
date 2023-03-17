@@ -1,0 +1,35 @@
+INHERIT: docs/common/config.yml
+
+site_name: "X-AIR"
+site_url: "https://redtide.github.io/wiki-x-air"
+site_description: "X-AIR Manual (Unofficial Wiki)"
+
+#copyright: "Copyright &copy; 2019 - 2023 redtide"
+#repo_name: "GitHub"
+#repo_url: "https://github.com/redtide/wiki-x-air"
+
+extra:
+  homepage: "/wiki-x-air/en/"
+  social:
+  - icon: "fontawesome/brands/github"
+    link: "https://github.com/redtide/wiki-x-air/"
+    name: "X-AIR Wiki on GitHub"
+
+nav:
+- "redtide.github.io": "https://redtide.github.io"
+- "en/index.md"
+- "en/02_1_-_x18-xr18_callouts.md"
+- "en/02_2_-_xr12-xr16_callouts.md"
+- "en/03_1_-_x18-xr18_hookups.md"
+- "en/03_2_-_xr12-xr16_hookups.md"
+- "en/04_-_network_connection.md"
+- "en/05_-_x-air_for_ipad.md"
+- "en/06_-_x-air_for_android.md"
+- "en/07_-_x-air_for_pc.md"
+- "en/08_-_midi.md"
+- "en/09_1_x18-xr18_specifications.md"
+- "en/09_2_-_xr12-xr16_specifications.md"
+- "en/10_-_effect_descriptions.md"
+- "en/11_-_instructional_videos.md"
+- "en/12_-_block_diagrams.md"
+- "en/models.md"
