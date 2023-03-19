@@ -9,7 +9,7 @@ plugins:
   search: {}
 
 extra_css:
-- common/stylesheets/extra.css
+- common/stylesheets/github.css
 
 markdown_extensions:
 # admonition: {}
@@ -37,16 +37,12 @@ theme:
   # Palette toggle for light mode
   - media: "(prefers-color-scheme: light)"
     scheme: "default"
-    primary: "black"
-    accent: "blue"
     toggle:
       icon: "material/weather-night"
       name: "Switch to dark mode"
   # Palette toggle for dark mode
   - media: "(prefers-color-scheme: dark)"
     scheme: "slate"
-    primary: "black"
-    accent: "blue"
     toggle:
       icon: "material/weather-sunny"
       name: "Switch to light mode"
